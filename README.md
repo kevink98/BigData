@@ -11,9 +11,9 @@ Aufgabe war es, Lieder von einer Spotify-Playlist anhand von ihren Daten zu kate
 
 ## Grober Ablauf
  1) Request zu Spotify: Daten von Playlist 
-   - Lieddaten in seperate *.json*-Dateien speichern
+     - Lieddaten in seperate *.json*-Dateien speichern
  2) Request zu Spotify: Für jedes Lied weitere Lieddaten
-   - Lieddaten in seperate *.json*-Dateien speichern
+     - Lieddaten in seperate *.json*-Dateien speichern
  3) Tabellen in Hadoop anlegen
  4) Daten in Tabellen speichern
  5) Für jedes Lied die Musikkategorie speichern
