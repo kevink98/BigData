@@ -9,7 +9,18 @@ Aufgabe war es, Lieder von einer Spotify-Playlist anhand von ihren Daten zu kate
 - MySql: Dantenbank für Webserver
 - Php: Webserver
 
-## Ablauf im DAG / Erklärung der einzelnen Tasks
+## Grober Ablauf
+ 1) Request zu Spotify: Daten von Playlist 
+   - Lieddaten in seperate *.json*-Dateien speichern
+ 2) Request zu Spotify: Für jedes Lied weitere Lieddaten
+   - Lieddaten in seperate *.json*-Dateien speichern
+ 3) Tabellen in Hadoop anlegen
+ 4) Daten in Tabellen speichern
+ 5) Für jedes Lied die Musikkategorie speichern
+ 6) Finale Daten erzeugen
+ 7) MySql Tabelle anlegen und Daten aus Finaltabelle importieren
+ 
+## Genauer Ablauf im DAG / Erklärung der einzelnen Tasks
  1) *start*: Verzeichniss '/user/hadoop/spotify' anlegen, falls nicht vorhanden
  2) *request_playlist_operator*: Request zu Spotify ausführen:
     - Verzeichniss '/home/airflow/requestData' löschen (falls vorhanden) und wieder anlegen (alte Daten sind weg)
