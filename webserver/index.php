@@ -12,7 +12,7 @@
 
   <head>
     <meta charset="utf-8">
-    <title>Remember - Multipurpose bootstrap site template</title>
+    <title>Spotify - Audioanalysis</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Your page description here" />
     <meta name="author" content="" />
@@ -52,7 +52,7 @@
           <div class="row nomargin">
             <div class="span6">
               <div class="logo">
-                <h1><a href="index.html"><i class="icon-tint"></i> Spotify - Audioanalysis</a></h1>
+                <h1><a href=""><i class="icon-tint"></i> Spotify - Audioanalysis</a></h1>
               </div>
             </div>
           </div>
@@ -63,7 +63,7 @@
       <!-- section intro -->
       <section id="content">
         <div class="container">
-          <h2>SPOTYFI: Music categorys from audio features</h2>
+          <h2>SPOTIFY: Music categorys from audio features</h2>
           <h3></h3>
         </div>
       </section>
