@@ -57,6 +57,16 @@ Aufgabe war es, Lieder von einer Spotify-Playlist anhand von ihren Daten zu kate
  12) exportToMysql: Daten in MySql - Datenbank exportieren
  13) finish_operator: Verzeichniss '/home/airflow/requestData' löschen
  
+ ## Projektdateien
+  - Dag: [spotify.py](spotify.py)
+  - SQL-Hive: [Rawdaten für Plalist](sql/hive/rawplaylist.sql)
+  - SQL-Hive: [Rawdaten für Trackdaten](sql/hive/rawtrackdata.sql)
+  - SQL-Hive: [Rawdaten für Kategorien](sql/hive/rawcategories.sql)
+  - SQL-Hive: [Finaldaten](sql/hive/final.sql)
+  - SQL-MySql: [Tieldaten](sql/mysql/titeldata.sql)
+  - Webserver: [Startseite](sql/mysql/titeldata.sql)
+  - Webserver: Styledateien in Unterordner
+ 
  ## Probleme
  - Der Authentifizierungscode von Spotify läuft nach einer gewissen Zeit aus. D.h. man muss immer einen neuen beantragen und diesem im Pythonscript aktualisieren. Es gibt auch eine Funktion bei Spotify, wo man automatisch ein Request machen kann und einen neuen erhalten kann. Aus Zeitgründen konnte dieses Feature jedoch nichtmehr implementiert werden.
     
