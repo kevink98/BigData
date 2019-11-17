@@ -70,3 +70,5 @@ Aufgabe war es, Lieder von einer Spotify-Playlist anhand von ihren Daten zu kate
  ## Probleme
  - Der Authentifizierungscode von Spotify läuft nach einer gewissen Zeit aus. D.h. man muss immer einen neuen beantragen und diesem im Pythonscript aktualisieren. Es gibt auch eine Funktion bei Spotify, wo man automatisch ein Request machen kann und einen neuen erhalten kann. Aus Zeitgründen konnte dieses Feature jedoch nichtmehr implementiert werden.
     
+ ## Präsentation
+ [Präsentation](Presentation.pdf)
